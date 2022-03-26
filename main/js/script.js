@@ -7,7 +7,7 @@ function timer(i) {
 	}
 }
 
-setTimeout(timer, 1000, 0;
+setTimeout(timer, 1000, 0);
 
 
 
