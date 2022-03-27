@@ -1,3 +1,4 @@
+
 function timer(i) {
 	console.log(i);
 	if(i < 60) {
@@ -8,6 +9,4 @@ function timer(i) {
 }
 
 setTimeout(timer, 1000, 0);
-
-
 
