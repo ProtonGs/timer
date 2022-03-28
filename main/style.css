@@ -59,7 +59,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .header__container {
 	display: flex;
 	align-items: center;
-	min-height: 85px;
+	max-height: 85px;
 }
 
 .header__logo {
@@ -96,6 +96,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*********************MAIN**************/
 .main {
+	position: relative;
+}
+.main-container {
+	padding-top: 114px;
 }
 
 /*********************FOOTER**************/
